@@ -27,6 +27,166 @@ Apply multimedia elements such as audio and video.
 
 Happy Coding! 💻✨
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Demo</title>
+   
+</head>
+<body >
+    <!-- Header Section -->
+    <header >
+        <h1>Welcome to the HTML5 Showcase</h1>
+        <p>Featuring lists, tables, multimedia, and forms with validation</p>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>My Favorite Activities</h2>
+        <ol type="I">
+            <li>Playing Saxophone</li>
+            <li>Learning Programming</li>
+            <li>Reading about Logistics</li>
+            <li>Exploring Mechatronics</li>
+            <li>Trading Forex</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Inspirational Image</h2>
+        <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Nature Inspiration" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>12 abuja Street</td>
+                    <td>+234095678456</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>45 bassey umoh Avenue</td>
+                    <td>+23477654321</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Lee</td>
+                    <td>78 uyo Lane</td>
+                    <td>+23492334455</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Kim</td>
+                    <td>32 Barracks Road</td>
+                    <td>+23977889900</td>
+                    <td>david@example.com</td>
+                </tr>
+                <tr>
+                    <td>Ana Silva</td>
+                    <td>65 Elima Street</td>
+                    <td>+23988776655</td>
+                    <td>ana@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Here</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="course">Select a Course:</label>
+
+            <select id="course" name="course" required>
+                <option value="">--Choose an option--</option>
+                <option value="logistics">Logistics</option>
+                <option value="mechatronics">Mechatronics</option>
+                <option value="programming">Programming</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="trading" name="interests" value="trading">
+            <label for="trading">Trading</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+
+        </form>
+    </section>
+    <!-- Multimedia Section -->
+    <section>
+        <h2>Listen and Watch</h2>
+
+        <!-- Audio -->
+        <h3>Relaxing Saxophone Music</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <h3>Motivational Video</h3>
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HTML5 Demo by KT Programmer</p>
+    </footer>
+</body>
+</html>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
